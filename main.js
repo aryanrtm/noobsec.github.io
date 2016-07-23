@@ -1,0 +1,1 @@
+root={noobsec:function(w0rd){txt="";for(i=0;i<w0rd.length;i++)txt+=String.fromCharCode(w0rd.charCodeAt(i)+4);return unescape(txt)}}
