@@ -1,0 +1,9 @@
+# Site settings
+title: "noobSecurity"
+bye_message: "One mistake can make you crazy!"
+baseurl: "/"
+url: "https://noobsec.org"
+
+# Build settings
+markdown: kramdown
+permalink: /:categories/:title/
