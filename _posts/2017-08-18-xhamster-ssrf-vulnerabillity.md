@@ -2,10 +2,9 @@
 layout: post
 title: XHamster SSRF Vulnerability
 date: 2017-08-18 11:55:10 AM
-permalink: project/2017-08-18-xhamster-ssrf-vulnerability/
+permalink: project/2017-08-18-xhamster-ssrf-vulnerabillity/
 author: xhellc0de
 categories: pentesting
-tags: vulnerability ssrf xhamster project bug-bounty
 ---
 ![Image of XHamster](https://raw.githubusercontent.com/noobsec/noobsec.github.io/master/images/xh-pwn.jpg)
 
