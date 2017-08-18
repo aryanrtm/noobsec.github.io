@@ -5,16 +5,20 @@ permalink: /project/
 ---
 
 <ul class="posts">
-    {% for post in site.categories.project %}
-        <li>
-            <span class="post-date">{{ post.date | date: "%b %d, %Y" }}</span>
-            ::
-            <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
-            @ {
-            {% assign tag = post.tags | sort %}
-            {% for category in tag %}<span><a href="{{ site.baseurl }}category/#{{ category }}" class="reserved">{{ category }}</a>{% if forloop.last != true %},{% endif %}</span>{% endfor %}
-            {% assign tag = nil %}
-            }
-        </li>
-    {% endfor %}
+{% for tag in site.tags %}
+  {% assign t = tag | first %}
+  {% assign posts = tag | last %}
+
+{{ t | downcase }}
+<ul>
+{% for post in posts %}
+  {% if post.tags contains t %}
+  <li>
+    <a href="{{ post.url }}">{{ post.title }}</a>
+    <span class="date">{{ post.date | date: "%B %-d, %Y"  }}</span>
+  </li>
+  {% endif %}
+{% endfor %}
+</ul>
+{% endfor %}
 </ul>
