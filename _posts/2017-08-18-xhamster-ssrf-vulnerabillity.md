@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: post
 title: XHamster SSRF Vulnerabillity
 ---
 
