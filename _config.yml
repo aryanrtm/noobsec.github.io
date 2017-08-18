@@ -7,3 +7,6 @@ url: "https://noobsec.org"
 # Build settings
 markdown: kramdown
 permalink: /:categories/:title/
+
+future: true
+published: true
