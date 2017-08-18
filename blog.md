@@ -1,6 +1,6 @@
 ---
 layout: project
-title: "noobSecurity Project"
+title: "NoobSec Project"
 permalink: /project/
 ---
 
