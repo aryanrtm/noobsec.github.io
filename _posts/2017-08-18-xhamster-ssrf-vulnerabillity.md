@@ -4,7 +4,6 @@ title: XHamster SSRF Vulnerability
 date: 2017-08-18 11:55:10 AM
 author: xhellc0de
 category: pentesting
-tags: vulnerability ssrf xhamster project bug-bounty
 ---
 ![Image of XHamster](https://raw.githubusercontent.com/noobsec/noobsec.github.io/master/images/xh-pwn.jpg)
 
