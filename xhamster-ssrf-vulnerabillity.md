@@ -1,8 +1,8 @@
 ---
-layout: project
+layout: post
 title: XHamster SSRF Vulnerabillity
 date: 2017-08-18 11:55:10 AM
-permalink: xhamster-ssrf-vulnerabillity/
+permalink: /projetc/xhamster-ssrf-vulnerabillity/
 ---
 
 XHamster merupakan situs streaming video dewasa yang cukup besar. Konten-konten **menarik** pada situs tersebut merupakan kontribusi dari para member XHamster, dengan kata lain, para member *meng-upload* video mereka ke situs tersebut. Bagi para *Bounty Hunter*, fitur *upload* terlihat seperti tambang emas yang siap untuk digali :) Maka dari itu, kami pun tertarik untuk mencoba mencari celah keamanan pada situs XHamster.
