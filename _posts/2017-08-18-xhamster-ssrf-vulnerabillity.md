@@ -66,7 +66,7 @@ Icy-MetaData: 1
 
 Dapat dilihat bahwa isi dari *file* /etc/issue adalah: **Debian GNU/Linux 8 \n \l**
 
-Untuk bukti yang lebih kuat, maka kami mencoba untuk melihat file lain yang ada di server XHamster. Dengan sedikit modifikasi di payload, kami berhasil mengambil isi file /etc/passwd
+Untuk bukti yang lebih kuat, maka kami mencoba untuk melihat file lain yang ada di server XHamster. Dengan sedikit modifikasi pada payload, kami berhasil mengambil isi file /etc/passwd
 
 ```
 root:x:0:0:root:/root:/bin/bash
@@ -83,8 +83,6 @@ Kami mencoba untuk mengambil isi file-file lain seperti 000-default.conf dan fil
 
 Untuk itu, kami rasa cukup sejauh ini penetrasi yang dilakukan dan kami langsung menghubungi XHamster terkait isu tersebut.
 
-Referensi: https://www.blackhat.com/docs/us-16/materials/us-16-Ermishkin-Viral-Video-Exploiting-Ssrf-In-Video-Converters.pdf
-
 Timeline:
 ```
 15 Agustus 2017 14:00 : Celah keamanan ditemukan
@@ -94,3 +92,4 @@ Timeline:
 15 Agustus 2017 21:40 : XHamster memberikan reward atas celah yang ditemukan
 17 Agustus 2017 10:59 : Celah telah diperbaiki
 ```
+Referensi: https://www.blackhat.com/docs/us-16/materials/us-16-Ermishkin-Viral-Video-Exploiting-Ssrf-In-Video-Converters.pdf
