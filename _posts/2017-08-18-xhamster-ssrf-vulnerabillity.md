@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: project
 title: XHamster SSRF Vulnerabillity
 author: xhellc0de
 category: penetration testing
