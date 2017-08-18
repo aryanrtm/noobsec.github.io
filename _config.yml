@@ -6,4 +6,4 @@ url: "https://noobsec.org"
 
 # Build settings
 markdown: kramdown
-permalink: /:title/
+permalink: /:categories/:title/
