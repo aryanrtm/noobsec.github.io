@@ -12,7 +12,7 @@ permalink: /project/
             <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
             @ {
             {% assign tag = post.tags | sort %}
-            {% for category in tag %}<span><a href="/project/category/#{{ category }}" class="reserved">{{ category }}</a>{% if forloop.last != true %}; {% endif %}</span>{% endfor %}
+            {% for category in tag %}<span><a href="/project/category/#{{ category }}" class="reserved">{{ category }}</a>{% if forloop.last != true %};{% endif %}</span>{% endfor %}
             {% assign tag = nil %}
             }
         </li>
