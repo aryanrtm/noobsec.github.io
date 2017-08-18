@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: content
 title: XHamster SSRF Vulnerabillity
 date: 2017-08-18 11:55:10 AM
 ---
