@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "Category List"
-permalink: /category/
+permalink: /project/category/
 ---
 
 <header>
