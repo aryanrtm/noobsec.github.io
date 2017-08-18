@@ -1,9 +1,6 @@
 ---
 layout: project
 title: XHamster SSRF Vulnerabillity
-author: xhellc0de
-category: penetration testing
-tags: [ssrf, ffmpeg]
 ---
 
 XHamster merupakan situs streaming video dewasa yang cukup besar. Konten-konten **menarik** pada situs tersebut merupakan kontribusi dari para member XHamster, dengan kata lain, para member *meng-upload* video mereka ke situs tersebut. Bagi para *Bounty Hunter*, fitur *upload* terlihat seperti tambang emas yang siap untuk digali :) Maka dari itu, kami pun tertarik untuk mencoba mencari celah keamanan pada situs XHamster.
