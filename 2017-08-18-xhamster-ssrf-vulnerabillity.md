@@ -6,7 +6,7 @@ permalink: 2017-08-18-xhamster-ssrf-vulnerabillity/
 author: xhellc0de
 category: pentesting
 ---
-![Image of XHamster](http://logolist.ru/uploads/posts/2016-04/0_xhamster_logo.jpg)
+![Image of XHamster](https://raw.githubusercontent.com/noobsec/noobsec.github.io/master/images/xh-pwn.jpg)
 
 XHamster merupakan situs streaming video dewasa yang cukup besar. Konten-konten **menarik** pada situs tersebut merupakan kontribusi dari para member XHamster, dengan kata lain, para member *meng-upload* video mereka ke situs tersebut. Bagi para *Bounty Hunter*, fitur *upload* terlihat seperti tambang emas yang siap untuk digali :) Maka dari itu, kami pun tertarik untuk mencoba mencari celah keamanan pada situs XHamster.
 
