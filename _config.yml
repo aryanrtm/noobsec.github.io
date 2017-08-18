@@ -3,6 +3,7 @@ title: "noobSecurity"
 bye_message: "One mistake can make you crazy!"
 baseurl: "/"
 url: "https://noobsec.org"
+enforce_ssl: "noobsec.org"
 
 # Build settings
 markdown: kramdown
