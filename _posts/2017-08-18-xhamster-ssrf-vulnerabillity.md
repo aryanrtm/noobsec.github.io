@@ -2,6 +2,7 @@
 layout: post
 title: XHamster SSRF Vulnerability
 date: 2017-08-18 11:55:10 AM
+permalink: project/2017-08-18-xhamster-ssrf-vulnerability/
 author: xhellc0de
 category: pentesting
 ---
