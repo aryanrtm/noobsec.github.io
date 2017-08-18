@@ -5,7 +5,7 @@ permalink: /project/
 ---
 
 <ul class="posts">
-    {% for post in posts %}
+    {% for post in site.posts %}
         <li>
             <span class="post-date">{{ post.date | date: "%b %d, %Y" }}</span>
             ::
