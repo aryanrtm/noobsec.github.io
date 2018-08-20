@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Traveloka Bug: Open Redirect
-date: 2018-20-18 02:00:00 AM
-permalink: 2018-20-18-traveloka-bug-open-redirect/
+date: 2018-08-20 02:00:00 AM
+permalink: 2018-08-20-traveloka-bug-open-redirect/
 author: xhellc0de
 categories: pentesting
 tags: vulnerability open-redirect traveloka bug-bounty
