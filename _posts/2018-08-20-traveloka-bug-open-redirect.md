@@ -68,5 +68,7 @@ Gak nyangka juga berawal dari iseng ngutak-ngatik URL eh malah nemu Bug, hehe. B
 Saat ini status Bug sudah di Patch.
 
 Referensi:
+
 * [Unvalidated Redirects and Forwards Cheat Sheet](https://www.owasp.org/index.php/Unvalidated_Redirects_and_Forwards_Cheat_Sheet)
+
 * [A New Era Of SSRF Exploiting URL Parser](https://www.blackhat.com/docs/us-17/thursday/us-17-Tsai-A-New-Era-Of-SSRF-Exploiting-URL-Parser-In-Trending-Programming-Languages.pdf)
