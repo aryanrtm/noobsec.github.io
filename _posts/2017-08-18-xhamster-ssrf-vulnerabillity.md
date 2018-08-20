@@ -7,7 +7,7 @@ author: xhellc0de
 categories: pentesting
 tags: vulnerability ssrf xhamster bug-bounty
 ---
-![Image of XHamster](https://raw.githubusercontent.com/noobsec/noobsec.github.io/master/images/xh-pwn.jpg)
+![Image of XHamster](https://noobsec.org/images/xh-pwn.jpg)
 
 XHamster merupakan situs streaming video dewasa yang cukup besar. Konten-konten **menarik** pada situs tersebut merupakan kontribusi dari para member XHamster, dengan kata lain, para member *meng-upload* video mereka ke situs tersebut. Bagi para *Bounty Hunter*, fitur *upload* terlihat seperti tambang emas yang siap untuk digali :) Maka dari itu, kami pun tertarik untuk mencoba mencari celah keamanan pada situs XHamster.
 
