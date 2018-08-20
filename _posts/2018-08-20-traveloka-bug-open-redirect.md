@@ -7,7 +7,7 @@ author: xhellc0de
 categories: pentesting
 tags: vulnerability open-redirect traveloka bug-bounty
 ---
-![Image of Traveloka](https://noobsec.org/images/sad.gif/tv.png)
+![Image of Traveloka](https://noobsec.org/images/tv.png)
 
 Berawal ketika selesai memesan Hotel di situs traveloka.com, saya pun membuka *email* untuk melihat Voucher Hotel yang baru saja saya pesan. Ketika membaca kata-kata mutiara pada *email* yang masuk, saya pun melihat ada tautan yang menuju ke *link* yang memuat file PDF dari Voucher saya tadi. 
 
@@ -20,7 +20,7 @@ Pada *URL* tersebut terlihat ada 2 *parameter*, yakni **id** dan **target**.
 
 Iseng-iseng saya merubah value dari parameter **id**, dan wow redirect tetap berjalan!
 
-![Image of Happy](https://noobsec.org/images/sad.gif/happy.gif)
+![Image of Happy](https://noobsec.org/images/happy.gif)
 
 Dengan ini, asumsi saya kemungkinan website Traveloka memiliki bug *Open Redirect*. Sebelum dilanjutkan, saya membuka halaman Traveloka Bugs untuk mengecek apakah Open Redirect termasuk ke dalam scope mereka.
 
@@ -40,7 +40,7 @@ Ketika dibuka halaman dialihkan ke traveloka.com. Artinya setiap parameter **tar
 
 Saya mencoba mengganti-ganti format URL, namun hasilnya sia-sia. Ternyata memang URL parsernya tidak bisa di-bypass.
 
-![Image of Sad](https://noobsec.org/images/sad.gif/sad.gif)
+![Image of Sad](https://noobsec.org/images/sad.gif)
 
 Setelah menghabiskan segelas kopi, saya terpikirkan sebuah cara yang mungkin bisa berhasil. Bagaimana kalau parameter **target** kita isi dengan *URL Shortener*!
 Kurang lebih flow nya seperti ini:
@@ -61,7 +61,7 @@ Setelah ini saya segera melapor pada Traveloka terkait kemungkinan Bug yang saya
 
 Beberapa hari kemudian Traveloka membalas email dan menyatakan bug yang saya temukan adalah valid!
 
-![Image of Bug Valid](https://noobsec.org/images/sad.gif/email_tv.jpg)
+![Image of Bug Valid](https://noobsec.org/images/email_tv.jpg)
 
 Gak nyangka juga berawal dari iseng ngutak-ngatik URL eh malah nemu Bug, hehe. Begitulah cerita saya menemukan Bug Open Redirect pada situs domain traveloka.com.
 
