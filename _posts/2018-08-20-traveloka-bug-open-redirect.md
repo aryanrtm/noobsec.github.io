@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Traveloka Bug&#58 Open Redirect
+title: Traveloka Bug%3A Open Redirect
 date: 2018-08-20 02:00:00 AM
 permalink: 2018-08-20-traveloka-bug-open-redirect/
 author: xhellc0de
