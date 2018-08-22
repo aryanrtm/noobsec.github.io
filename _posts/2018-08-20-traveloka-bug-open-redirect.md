@@ -18,7 +18,7 @@ https://www.traveloka.com/r?id=1607148893701&target=http://www.traveloka.com/pdf
 
 Pada *URL* tersebut terlihat ada 2 *parameter*, yakni **id** dan **target**.
 
-Iseng-iseng saya merubah value dari parameter **id**, dan wow redirect tetap berjalan!
+Iseng-iseng saya merubah value dari parameter **id**, dan wow redirect tetap berjalan! Itu artinya parameter **id** bukanlah sebuah validasi, jadi valuenya dirubah menjadi apapun tidak akan berpengaruh pada proses redirect nya.
 
 ![Image of Happy](https://noobsec.org/images/happy.gif)
 
