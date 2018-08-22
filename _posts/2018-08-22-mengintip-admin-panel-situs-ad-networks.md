@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Blind XSS - Mengintip Admin Panel situs Ad Networks
+title: engintip Admin Panel situs Ad Networks
 date: 2018-08-22 04:10:00 PM
 permalink: project/2018-08-22-blind-xss-mengintip-admin-panel-situs-ad-networks/
 author: xhellc0de
