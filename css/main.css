@@ -204,6 +204,22 @@ table a {
 .highlight .il { color: #009999 } /* Literal.Number.Integer.Long */
 /* End Syntax highlighting styles */
 
+/* Disqus customize style */
+#disqus_thread {
+    border-radius: 5px;
+    border-top: dashed 1px rgba(255,255,255,0.5);
+    margin: 20px auto 15px;
+    padding-top: 10px;
+}
+
+#disqus_thread > iframe {
+    color: #fff;
+    background-color: #ffffff;
+    margin-bottom: 0px !important;
+    padding: 5px !important;
+}
+/* End Disqus customize style */
+
 .comment {
     color: rgba(255,255,255,0.3);
 }
