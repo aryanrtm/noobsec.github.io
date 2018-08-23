@@ -51,11 +51,14 @@ Yang terakhir saya menemukan bug yang sama pada situs Ad Networks asal Rusia. Ka
 
 Tidak seperti situs sebelumnya, admin situs ini sangat ramah dan sangat cepat tanggap. Bahkan ini merupakan **Bounty Hunting** tercepat yang saya alami. Proses dari mengirim report sampai diberi reward memakan waktu kurang dari 2 jam!
 
-**15 Aug 2018 22:23 = Reported**
 ![Image of Ad Networks Email](https://noobsec.org/images/b3_email1.png)
 
-**15 Aug 2018 23:06 = Rewarded**
 ![Image of Ad Networks Email](https://noobsec.org/images/b3_email2.png)
+
+```
+15 Aug 2018 22:23 = Reported
+15 Aug 2018 23:06 = Rewarded
+```
 
 **Dari bug ini saya diberi reward sebesar $100. (Alhamdulillah)**
 
