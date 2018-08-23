@@ -24,7 +24,9 @@ Untuk kasus yang saya temukan ini, saya memasukan payload XSS pada Member Area A
 Berikut ini contoh source code dari Field Full Name setelah saya isi payload XSS:
 
 ```html
-<td style="color:black;cursor:pointer;" userid="x" class="userid userid_x">John Smith"&gt;<script src="https://malicious.script/"></script></td>
+<td style="color:black;cursor:pointer;" userid="x" class="userid userid_x">
+  John Smith"&gt;<script src="https://malicious.script/"></script>
+</td>
 ```
 
 Karena saya merupakan orang yang jujur dan baik hati. Maka saya segera melapor pada Admin situs tersebut terkait bug yang saya temukan. Tidak lupa pula menanyakan apakah ada reward yang saya dapatkan haha..
