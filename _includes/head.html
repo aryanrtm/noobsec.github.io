@@ -16,4 +16,17 @@
     <link rel="shortcut icon" href="/images/favicon.png">
     <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/feed/"> 
     <script>var host = "noobsec.org";if ((host == window.location.host) && (window.location.protocol != "https:")) window.location.protocol = "https";</script>
+    <script>
+    var disqus_config = function () {
+        this.page.url = window.location.href + "#!";
+        this.page.identifier = window.location.pathname.replace("/project/", "#").replace("/", "");
+    };
+    
+    (function() {
+        var d = document, s = d.createElement('script');
+        s.src = 'https://noobsec.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+    </script>
 </head>
