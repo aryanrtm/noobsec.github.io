@@ -22,7 +22,7 @@ Berikut tag HTML nya:
 
 Terlihat bahwa Elemen title pada tag <img> tidak disanitasi dengan baik, sehingga kita dapat menyisipkan tag HTML didalamnya. Selanjutnya saya kembali memposting ulang gambar dengan mengisi field **Judul** dengan: 
 
-` judulnya' onload='alert(document.cookie)'`
+>judulnya" onload="alert(document.cookie)"
 
 ![Image of Ad Networks](https://noobsec.org/images/1cak_xss.jpg)
 
