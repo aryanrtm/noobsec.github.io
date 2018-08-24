@@ -21,7 +21,7 @@ Berikut tag HTML nya:
 <img onmouseover="return false" title="ini judulnya"enaena" src="https://cdn16.1cak.com/posts/xxx.jpg">
 ```
 
-Terlihat bahwa Elemen title pada tag `<img>` tidak disanitasi dengan baik, sehingga kita dapat menyisipkan tag HTML didalamnya. Selanjutnya saya kembali memposting ulang gambar dengan mengisi field **Judul** dengan: 
+Terlihat bahwa Elemen title pada tag `<img>` tidak disanitasi dengan baik, sehingga kita dapat menyisipkan elemen HTML didalamnya. Selanjutnya saya kembali memposting ulang gambar dengan mengisi field **Judul** dengan: 
 
 ```
 judulnya" onload="alert(document.cookie)"
