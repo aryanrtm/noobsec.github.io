@@ -41,5 +41,5 @@ Saya segera melapor pada admin situs 1cak. Tidak lama kemudian dia membalas dan 
 
 Dan saya pun diberi reward berupa pulsa atas temuan ini. Hehe lumayan..
 
-![Image of 1cak Email](https://noobsec.org/images/1cak_email.jpg)
+![Image of 1cak Email](https://noobsec.org/images/1cak_emails.jpg)
 
