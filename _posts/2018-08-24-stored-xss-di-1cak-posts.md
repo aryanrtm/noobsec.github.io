@@ -18,7 +18,7 @@ Lalu saya mencoba membuat postingan gambar, dan memasukan karakter " pada field 
 Berikut tag HTML nya:
 
 ```
-<img onmouseover="return false" title="**ini judulnya"enaena**" src="https://cdn16.1cak.com/posts/xxx.jpg">
+<img onmouseover="return false" title="ini judulnya"enaena" src="https://cdn16.1cak.com/posts/xxx.jpg">
 ```
 
 Terlihat bahwa Elemen title pada tag `<img>` tidak disanitasi dengan baik, sehingga kita dapat menyisipkan tag HTML didalamnya. Selanjutnya saya kembali memposting ulang gambar dengan mengisi field **Judul** dengan: 
@@ -30,6 +30,12 @@ judulnya" onload="alert(document.cookie)"
 ![Image of 1cak XSS](https://noobsec.org/images/1cak_xss.jpg)
 
 Dan payload XSS pun tereksekusi!
+
+HTML tag nya pun menjadi seperti ini:
+
+```
+<img onmouseover="return false" title="judulnya" onload="alert(document.cookie)" src="https://cdn16.1cak.com/posts/xxx.jpg">
+```
 
 Saya segera melapor pada admin situs 1cak. Tidak lama kemudian dia membalas dan mengatakan bahwa bug tersebut telah selesai dipatch. Luar biasa cepat!
 
