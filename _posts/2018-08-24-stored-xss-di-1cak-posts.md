@@ -24,7 +24,7 @@ Terlihat bahwa Elemen title pada tag <img> tidak disanitasi dengan baik, sehingg
 
 >judulnya" onload="alert(document.cookie)"
 
-![Image of Ad Networks](https://noobsec.org/images/1cak_xss.jpg)
+![Image of 1cak XSS](https://noobsec.org/images/1cak_xss.jpg)
 
 Dan payload XSS pun tereksekusi!
 
@@ -32,5 +32,5 @@ Saya segera melapor pada admin situs 1cak. Tidak lama kemudian dia membalas dan 
 
 Dan saya pun diberi reward berupa pulsa atas temuan ini. Hehe lumayan..
 
-![Image of Ad Networks](https://noobsec.org/images/1cak_email.jpg)
+![Image of 1cak Email](https://noobsec.org/images/1cak_email.jpg)
 
